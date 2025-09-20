@@ -152,7 +152,7 @@ const Ideas: React.FC = () => {
 
   const handleSubmitIdea = () => {
     const githubUrl =
-      'https://github.com/bettergovph/bettergov/issues/new/choose'
+      'https://github.com/bettergovph/bettergov/issues/new?assignees=&labels=enhancement%2Cidea&projects=&template=idea-submission.md&title=%5BIDEA%5D+'
     window.open(githubUrl, '_blank')
   }
 
