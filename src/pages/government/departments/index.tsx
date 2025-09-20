@@ -30,7 +30,7 @@ interface Department {
 // Component to display department details
 function DepartmentDetail({ departmentName }: { departmentName: string }) {
   const departments = departmentsData as Department[];
-  const department = departments.find(d => d.office_name === departmentName);
+  const department = departments.find(d => d.slug === departmentName);
   const seoData = getDepartmentsSEOData(departmentName);
 
   if (!department) {
