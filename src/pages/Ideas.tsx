@@ -157,7 +157,7 @@ const Ideas: React.FC = () => {
   }
 
   const handleSubmitPR = () => {
-    const githubUrl = 'https://github.com/jasontorres/bettergov/compare'
+    const githubUrl = 'https://github.com/bettergovph/bettergov/contribute'
     window.open(githubUrl, '_blank')
   }
   return (
